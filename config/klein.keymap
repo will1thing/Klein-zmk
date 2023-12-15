@@ -35,10 +35,10 @@
             //                      | ESC  | SPC |  TAB | CALCULATOR |                         | MUTE | RET | BKSP | DEL |
 
             bindings = <
-&kp Q          &kp W          &kp E        &kp R          &kp T    &kp Y  &kp U       &kp I            &kp O         &kp P
-&mt LSHIFT A   &mt LCTRL S    &mt LALT D   &mt LCMD F     &kp G    &kp H  &mt RCMD J  &mt RIGHT_ALT K  &mt RCTRL L   &mt LSHIFT SQT
-&kp Z          &kp X          &kp C        &kp V          &kp B    &kp N  &kp M       &kp COMMA        &kp DOT       &kp FSLH
-&lt MEDIA ESC  &lt NAV SPACE  &lt BLU TAB  &kp C_AL_CALC                  &kp C_MUTE  &lt SYM SPACE    &lt NUM BKSP  &lt FUN ENTER
+&kp Q          &kp W        &kp E        &kp R          &kp T    &kp Y  &kp U       &kp I            &kp O         &kp P
+&mt LSHIFT A   &mt LCTRL S  &mt LALT D   &mt LCMD F     &kp G    &kp H  &mt RCMD J  &mt RIGHT_ALT K  &mt RCTRL L   &mt LSHIFT SQT
+&kp Z          &kp X        &kp C        &kp V          &kp B    &kp N  &kp M       &kp COMMA        &kp DOT       &kp FSLH
+&lt MEDIA ESC  &lt NAV DEL  &lt BLU TAB  &kp C_AL_CALC                  &kp C_MUTE  &lt SYM SPACE    &lt NUM BKSP  &lt FUN ENTER
             >;
 
             sensor-bindings = <&inc_dec_kp PG_UP PG_DN &inc_dec_kp C_VOL_DN C_VOL_UP>;
