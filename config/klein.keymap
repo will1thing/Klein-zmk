@@ -46,10 +46,10 @@
 
         nav_layer {
             bindings = <
-&trans     &trans     &trans    &trans       &trans    &kp CAPSLOCK  &bt BT_CLR  &kp K_CUT  &kp K_COPY  &kp K_PASTE
-&kp LSHFT  &kp LCTRL  &kp LALT  &kp LCMD     &trans    &kp PAGE_UP   &kp HOME    &kp UP     &kp END     &trans
-&trans     &trans     &trans    &trans       &trans    &kp INSERT    &kp LEFT    &kp DOWN   &kp RIGHT   &kp INS
-&trans     &trans     &trans    &bootloader                          &bt BT_NXT  &kp RET    &kp BKSP    &kp DEL
+&trans     &trans     &trans    &trans       &trans    &kp CAPSLOCK   &bt BT_CLR  &kp K_CUT  &kp K_COPY  &kp K_PASTE
+&kp LSHFT  &kp LCTRL  &kp LALT  &kp LCMD     &trans    &kp PAGE_UP    &kp HOME    &kp UP     &kp END     &trans
+&trans     &trans     &trans    &trans       &trans    &kp PAGE_DOWN  &kp LEFT    &kp DOWN   &kp RIGHT   &kp INS
+&trans     &trans     &trans    &bootloader                           &bt BT_NXT  &kp RET    &kp BKSP    &kp DEL
             >;
 
             sensor-bindings =
